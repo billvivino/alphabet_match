@@ -1,0 +1,14 @@
+{
+    "config": {
+        "version": "school",
+        "profile_mode": "list",
+        "slots": [
+            {"id": 1, "name": "a", "group": "teacher 1", "active": true},
+            {"id": 2, "name": "b", "group": "teacher 1", "active": true},
+            {"id": 3, "name": "c", "group": "teacher 1", "active": true},
+            {"id": 4, "name": "x", "group": "teacher 2", "active": true},
+            {"id": 5, "name": "y", "group": "teacher 2", "active": true},
+            {"id": 6, "name": "z", "group": "teacher 2", "active": true}
+        ]
+    }
+}

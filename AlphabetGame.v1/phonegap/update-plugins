@@ -1,0 +1,19 @@
+#!/usr/bin/python3
+import re, os
+
+def refresh(name):
+    print(name)
+    r = os.system('cordova plugin remove %s' % name)
+    if r == 0:
+        r = os.system('cordova plugin add %s' % name)
+    if r != 0:
+        print('ERROR')
+    print()
+
+with open('config.xml', 'r') as f:
+    xml = f.read()
+
+for line in xml.split('\n'):
+    m = re.search('<plugin name="(.*?)"', line)
+    if m:
+        refresh(m.group(1))

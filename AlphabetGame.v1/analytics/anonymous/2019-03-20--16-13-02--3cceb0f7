@@ -1,0 +1,5 @@
+[{"msg": "select", "slot": 2, "ts": 1553112782.5, "screen": "Profile"}, {"msg": "changescreen", "dest": "Game", "ts": 1553112782.502, "screen": "Profile"}, {"msg": "changescreen", "dest": "Garden", "ts": 1553112782.503, "screen": "Game"}]
+[{"msg": "changescreen", "dest": "Game", "ts": 1553112788.764, "screen": "Garden"}, {"msg": "newletter", "goal": "t", "choices": "T H S T T A", "ts": 1553112788.766, "screen": "Game"}]
+[{"msg": "pick", "letter": "t", "box": 0, "ts": 1553112905.501, "screen": "Game"}, {"msg": "pick", "letter": "t", "box": 4, "ts": 1553112905.74, "screen": "Game"}]
+[{"msg": "pick", "letter": "t", "box": 3, "ts": 1553112906.276, "screen": "Game"}, {"msg": "newletter", "goal": "u", "choices": "V U W U X U", "ts": 1553112908.272, "screen": "Game"}]
+[{"msg": "pick", "letter": "u", "box": 3, "ts": 1553112917.805, "screen": "Game"}, {"msg": "pick", "letter": "u", "box": 1, "ts": 1553112918.053, "screen": "Game"}, {"msg": "pick", "letter": "u", "box": 5, "ts": 1553112918.356, "screen": "Game"}, {"msg": "newletter", "goal": "v", "choices": "V K V V K S", "ts": 1553112920.356, "screen": "Game"}]

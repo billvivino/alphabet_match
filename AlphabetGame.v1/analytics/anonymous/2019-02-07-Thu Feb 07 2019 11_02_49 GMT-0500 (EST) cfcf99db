@@ -1,0 +1,2 @@
+[{"msg": "changescreen", "dest": "Game", "ts": 1549555369.337, "screen": "Profile"}, {"msg": "newletter", "goal": "n", "choices": "N F N N R Y", "ts": 1549555369.338, "screen": "Game"}, {"msg": "pick", "letter": "n", "box": 0, "ts": 1549555370.454, "screen": "Game"}, {"msg": "pick", "letter": "n", "box": 3, "ts": 1549555370.654, "screen": "Game"}, {"msg": "pick", "letter": "n", "box": 2, "ts": 1549555370.996, "screen": "Game"}]
+[{"msg": "newletter", "goal": "o", "choices": "G O O C O S", "ts": 1549555372.99, "screen": "Game"}]

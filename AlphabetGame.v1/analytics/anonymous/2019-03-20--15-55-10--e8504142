@@ -1,0 +1,3 @@
+[{"msg": "changescreen", "dest": "Title", "ts": 1553111709.18}, {"msg": "changescreen", "dest": "Login", "ts": 1553111710.018, "screen": "Title"}, {"msg": "changescreen", "dest": "ModeMenu", "ts": 1553111710.32, "screen": "Login"}]
+[{"msg": "changescreen", "dest": "Game", "ts": 1553111857.715, "screen": "ModeMenu"}, {"msg": "backout", "ts": 1553111858.675, "screen": "Game"}, {"msg": "changescreen", "dest": "Profile", "ts": 1553111858.675, "screen": "Game"}]
+[{"msg": "changescreen", "dest": "Title", "ts": 1553111860.371, "screen": "Profile"}, {"msg": "changescreen", "dest": "Login", "ts": 1553111861.488, "screen": "Title"}, {"msg": "changescreen", "dest": "ModeMenu", "ts": 1553111861.716, "screen": "Login"}]

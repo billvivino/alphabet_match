@@ -1,0 +1,23 @@
+#!/usr/bin/python3
+import os, time
+
+# save database to directory:
+# pg_dump -Fd -f $BACKUPDIR $DBNAME
+
+# print backup sql:
+# pg_restore $BACKUPDIR [-t $TABLE]
+
+# replace a db with backup:
+# pg_restore -c -d $DBNAME $BACKUPDIR
+
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
+
+dbname = 'looloo'
+path = 'pg_backup/%s' % time.strftime('%Y-%m-%d-%H-%M')
+
+if not os.path.isdir('pg_backup'):
+    os.mkdir('pg_backup')
+
+os.system('pg_dump -Fd -f %s %s' % (path, dbname))
+
+print(os.path.abspath(path))

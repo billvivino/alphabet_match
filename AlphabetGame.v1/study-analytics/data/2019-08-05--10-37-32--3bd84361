@@ -1,0 +1,2 @@
+[{"msg": "select", "slot": "student/102", "ts": 1565015851.736, "screen": "Profile"}, {"msg": "select", "slot": "student/102", "ts": 1565015852.805, "screen": "Profile"}]
+[{"msg": "select", "ts": 1565015851.736, "screen": "Profile", "slot": "student/102"}, {"msg": "select", "ts": 1565015852.805, "screen": "Profile", "slot": "student/102"}]

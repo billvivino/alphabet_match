@@ -1,0 +1,8 @@
+cd `dirname "$0"`
+rm -rf server-backup
+
+BACKUP=`ssh looloo '/var/www/api/backupdb'`
+scp -r looloo:$BACKUP server-backup
+#ssh looloo "rm -r $BACKUP"
+
+pg_restore --clean --create -d postgres --no-owner server-backup

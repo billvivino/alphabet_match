@@ -1,0 +1,8 @@
+
+# phonegap
+node_modules
+platforms
+plugins
+
+# build
+matching2.zip

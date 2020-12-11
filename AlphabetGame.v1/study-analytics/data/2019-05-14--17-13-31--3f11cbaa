@@ -1,0 +1,4 @@
+[{"screen": "Profile", "msg": "select", "ts": 1557868411.094, "slot": 1}, {"msg": "changescreen", "dest": "Game", "screen": "Profile", "ts": 1557868411.097}, {"screen": "Game", "msg": "newletter", "goal": "o", "choices": "A L V O O O", "ts": 1557868411.135}]
+[{"msg": "backout", "screen": "Game", "ts": 1557868415.643}, {"msg": "changescreen", "dest": "Profile", "screen": "Game", "ts": 1557868415.644}]
+[{"msg": "changescreen", "dest": "Title", "screen": "Profile", "ts": 1557868416.638}]
+[{"msg": "changescreen", "dest": "Profile", "screen": "Title", "ts": 1557868479.149}]

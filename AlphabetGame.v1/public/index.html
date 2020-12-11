@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="index.css" />
+    <script src="/common/jquery-3.4.1.min.js"></script>
+    <script src="/common/siteconf.js"></script>
+    <script src="/common/storage.js"></script>
+    <script src="/common/server.js"></script>
+    <script src="common.js"></script>
+    <script src="index.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <img id="headerimg" src="img/headertitle.png">
+    <div id="contactinfo"><a href="mailto:info@kangaroocrew.com">info@kangaroocrew.com</a>
+    <br>862-242-6008
+    </div>
+    <div class="box">
+      <div class="titletext">Login</div>
+	<div id="email_login">
+	  <p><input id="email" placeholder="email">
+	  <p><input id="password" type="password" placeholder="password">
+	  <p><button id="loginbutton">Submit</button>
+	</div>
+	<div id="token_login">
+	  <p>Currently Logged In.
+	  <p><button id="logout">Log out</button>
+	  <p><button id="tokenbutton">Proceed</button>
+	</div>
+    </div>
+    <div class="box">
+      <div class="titletext">Online Games</div>
+      <p><a href="/alphabet/">Alphabet Game Online</a>
+    </div>
+    <div id="socialmedia"></div>
+  </body>
+</html>

@@ -1,0 +1,2 @@
+[{"msg": "select", "slot": 2, "ts": 1553111972.653, "screen": "Profile"}, {"msg": "changescreen", "dest": "Game", "ts": 1553111972.654, "screen": "Profile"}, {"msg": "changescreen", "dest": "WindowAnim", "ts": 1553111972.654, "screen": "Game"}]
+[{"msg": "changescreen", "dest": "Game", "ts": 1553111983.113, "screen": "WindowAnim"}, {"msg": "newletter", "goal": "l", "choices": "L T L L C C", "ts": 1553111983.114, "screen": "Game"}]

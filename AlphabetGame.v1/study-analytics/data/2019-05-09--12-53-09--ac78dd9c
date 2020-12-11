@@ -1,0 +1,7 @@
+[{"ts": 1557420789.175, "screen": "Profile", "msg": "select", "slot": 2}, {"ts": 1557420789.176, "screen": "Profile", "msg": "changescreen", "dest": "Game"}, {"ts": 1557420789.177, "screen": "Game", "msg": "newletter", "choices": "K B B U I B", "goal": "b"}]
+[{"ts": 1557420795.467, "screen": "Game", "msg": "pick", "box": 1, "letter": "b"}]
+[{"ts": 1557420797.956, "screen": "Game", "msg": "pick", "box": 2, "letter": "b"}]
+[{"ts": 1557420835.502, "screen": "Game", "msg": "pick", "box": 0, "letter": "k"}]
+[{"ts": 1557420838.666, "screen": "Game", "msg": "pick", "box": 0, "letter": "k"}]
+[{"ts": 1557420851.69, "screen": "Game", "msg": "pick", "box": 3, "letter": "u"}, {"ts": 1557420855.069, "screen": "Game", "msg": "pick", "box": 0, "letter": "k"}]
+[{"ts": 1557420862.185, "screen": "Game", "msg": "goalcheck"}]

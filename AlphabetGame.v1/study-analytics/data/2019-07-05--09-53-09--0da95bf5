@@ -1,0 +1,7 @@
+[{"screen": "Profile", "msg": "select", "ts": 1562334789.441, "slot": "student/"}, {"screen": "Profile", "msg": "changescreen", "dest": "Game", "ts": 1562334789.522}, {"screen": "Game", "msg": "changescreen", "dest": "Garden", "ts": 1562334789.523}]
+[{"screen": "Garden", "msg": "changescreen", "dest": "Game", "ts": 1562334794.825}, {"screen": "Game", "msg": "newletter", "ts": 1562334794.827, "goal": "j", "choices": "J J E D J X"}, {"screen": "Game", "msg": "pick", "letter": "j", "box": 4, "ts": 1562334795.153}]
+[{"screen": "Game", "msg": "pick", "letter": "x", "box": 5, "ts": 1562334797.403}, {"screen": "Game", "msg": "pick", "letter": "j", "box": 1, "ts": 1562334798.471}, {"screen": "Game", "msg": "pick", "letter": "j", "box": 0, "ts": 1562334799.633}, {"screen": "Game", "msg": "newletter", "ts": 1562334801.636, "goal": "k", "choices": "K K K N A T"}]
+[{"screen": "Game", "msg": "pick", "letter": "a", "box": 4, "ts": 1562334803.965}, {"screen": "Game", "msg": "pick", "letter": "k", "box": 2, "ts": 1562334805.538}]
+[{"screen": "Game", "msg": "pick", "letter": "k", "box": 1, "ts": 1562334806.822}, {"screen": "Game", "msg": "pick", "letter": "k", "box": 0, "ts": 1562334807.86}, {"screen": "Game", "msg": "newletter", "ts": 1562334809.853, "goal": "l", "choices": "L O L L E Z"}]
+[{"screen": "Game", "msg": "pick", "letter": "l", "box": 2, "ts": 1562334824.881}]
+[{"screen": "Game", "msg": "backout", "ts": 1562334827.085}, {"screen": "Game", "msg": "changescreen", "dest": "Profile", "ts": 1562334827.086}]

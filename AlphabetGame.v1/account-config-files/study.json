@@ -1,0 +1,17 @@
+{
+    "config": {
+        "version": "school",
+        "profile_mode": "list",
+        "slots": [
+            {"id": 101, "name": "101", "group": "1xx", "active": true},
+            {"id": 102, "name": "102", "group": "1xx", "active": true},
+            {"id": 103, "name": "103", "group": "1xx", "active": true},
+            {"id": 201, "name": "201", "group": "2xx", "active": true},
+            {"id": 202, "name": "202", "group": "2xx", "active": true},
+            {"id": 203, "name": "203", "group": "2xx", "active": true},
+            {"id": 204, "name": "204", "group": "2xx", "active": true},
+            {"id": 205, "name": "205", "group": "2xx", "active": true},
+            {"id": 206, "name": "206", "group": "2xx", "active": true}
+        ]
+    }
+}

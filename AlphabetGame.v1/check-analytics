@@ -1,0 +1,37 @@
+#!/usr/bin/python3
+import database, time
+
+devices = database.listDevices('sacredheart')
+print('devices', devices)
+
+cur = database.db.cursor()
+
+for dev in devices:
+    caches = database.getCacheIds(dev)
+    print('device', dev, 'caches', len(caches))
+    for cacheid in caches:
+        sessions = database.getCacheSessions(cacheid)
+        print('cacheid', cacheid, 'sessions', len(sessions))
+        
+        cur.execute('select ts, data from analytics where cacheid=%s order by msgid', (cacheid,))
+        days = {}  # {date: {slot: count, 'TOTAL': totalcount}}
+        curslot = None
+        for ts, data in cur:
+            d = time.strftime('%Y-%m-%d', time.localtime(ts))
+            if d not in days:
+                days[d] = {'TOTAL': 0}
+            days[d]['TOTAL'] += 1
+            
+            if data['msg'] == 'select':
+                curslot = data['slot']
+            if curslot != None:
+                days[d][curslot] = days[d].get(curslot, 0) + 1
+
+        if days:
+            print('messages')
+            for day, slots in sorted(days.items()):
+                print(day)
+                for name, count in sorted(slots.items(), key=lambda t: str(t[0])):
+                    print('   ', name, count)
+
+    print()

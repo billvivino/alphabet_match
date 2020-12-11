@@ -1,0 +1,4 @@
+[{"msg": "changescreen", "dest": "Title", "ts": 1557867916.615}]
+[{"msg": "changescreen", "dest": "Profile", "screen": "Title", "ts": 1557867938.556}]
+[{"msg": "changescreen", "dest": "Title", "screen": "Profile", "ts": 1557867945.917}]
+[{"msg": "changescreen", "dest": "Profile", "screen": "Title", "ts": 1557868409.375}]

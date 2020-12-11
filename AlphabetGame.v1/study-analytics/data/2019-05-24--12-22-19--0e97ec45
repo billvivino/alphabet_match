@@ -1,0 +1,2 @@
+[{"slot": 1, "screen": "Profile", "ts": 1558714939.261, "msg": "select"}, {"dest": "Game", "screen": "Profile", "ts": 1558714939.262, "msg": "changescreen"}, {"goal": "e", "screen": "Game", "choices": "X E E E T V", "msg": "newletter", "ts": 1558714939.263}]
+[{"screen": "Game", "ts": 1558715041.871, "msg": "backout"}, {"dest": "Profile", "screen": "Game", "ts": 1558715041.871, "msg": "changescreen"}]

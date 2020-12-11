@@ -1,0 +1,7 @@
+[{"slot": "student/202", "ts": 1563894789.493, "screen": "Profile", "msg": "select"}, {"screen": "Profile", "ts": 1563894790.612, "dest": "Game", "msg": "changescreen"}, {"screen": "Game", "ts": 1563894790.616, "dest": "Garden", "msg": "changescreen"}, {"screen": "Garden", "ts": 1563894791.393, "dest": "Game", "msg": "changescreen"}, {"screen": "Game", "choices": "B C C F C P", "ts": 1563894791.398, "goal": "c", "msg": "newletter"}]
+[{"screen": "Game", "ts": 1563894795.314, "dest": "Game", "msg": "changescreen"}, {"screen": "Game", "ts": 1563894795.314, "dest": "Garden", "msg": "changescreen"}]
+[{"screen": "Garden", "ts": 1563894799.912, "dest": "Game", "msg": "changescreen"}, {"screen": "Game", "choices": "C K C C H H", "ts": 1563894799.914, "goal": "c", "msg": "newletter"}]
+[{"ts": 1563894832.887, "screen": "Game", "letter": "c", "box": 3, "msg": "pick"}, {"ts": 1563894833.078, "screen": "Game", "letter": "c", "box": 0, "msg": "pick"}, {"ts": 1563894836.77, "screen": "Game", "letter": "k", "box": 1, "msg": "pick"}]
+[{"ts": 1563894837.946, "screen": "Game", "letter": "c", "box": 2, "msg": "pick"}, {"screen": "Game", "choices": "M O D D D C", "ts": 1563894839.937, "goal": "d", "msg": "newletter"}]
+[{"ts": 1563894856.163, "screen": "Game", "letter": "d", "box": 3, "msg": "pick"}, {"ts": 1563894857.045, "screen": "Game", "letter": "d", "box": 4, "msg": "pick"}]
+[{"ts": 1563894864.351, "screen": "Game", "letter": "o", "box": 1, "msg": "pick"}]

@@ -1,0 +1,124 @@
+<!doctype html>
+<html>
+  <head>
+    <style>
+      
+      #alphabet {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-between;
+          height: 80vh;
+      }
+      
+      #letter {
+          transform: scale(2);
+          width: 120px;
+          height: 100px;
+          background-image: url('alphabet.png');
+          background-repeat: no-repeat;
+          background-position: -0px -0px;
+      }
+
+      #controls {
+          display: flex;
+          flex-direction: row;
+      }
+
+      #controls button, #controls div {
+          margin: 20px;
+      }
+      
+    </style>
+  </head>
+  <body>
+    
+    <div id="alphabet">
+      <div>
+        <button id="upper">upper case</button>
+        <button id="lower">lower case</button>
+      </div>
+
+      <div id="letter"></div>
+
+      <div id="controls">
+        <button id="prev">prev</button>
+        <div id="count"></div>
+        <button id="next">next</button>
+      </div>
+    </div>
+    
+    <script src="jquery-3.3.1.min.js"></script>
+    <script>
+
+      var sequence;
+      var upper = true;
+      var cur = 0;
+      var letter_w, letter_h;
+
+      setCase(true);
+
+      $('#upper').click(() => {
+          setCase(true);
+      });
+
+      $('#lower').click(() => {
+          setCase(false);
+      });
+      
+      $('#next').click(() => {
+          cur++;
+          if (cur > 25) cur = 25;
+          updateLetter();
+      });
+
+      $('#prev').click(() => {
+          cur--;
+          if (cur < 0) cur = 0;
+          updateLetter();
+      });
+
+      function setCase(c) {
+          upper = c;
+          cur = 0;
+          
+          sequence = [];
+          for (var i = 0; i < 26; i++)
+              sequence.push(i);
+
+          for (var i = 0; i < 25; i++) {
+              var k = i + Math.floor(Math.random() * (26 - i));
+              if (k != i) {
+                  var t = sequence[k];
+                  sequence[k] = sequence[i];
+                  sequence[i] = t;
+              }
+          }
+
+          if (upper) {
+              $('#letter').css('background-image', "url('alphabet.png')");
+              letter_w = 120;
+              letter_h = 100;
+          } else {
+              $('#letter').css('background-image', "url('alphabet_lower.png')");
+              letter_w = 120;
+              letter_h = 120;
+          }
+          $('#letter').css('width', letter_w);
+          $('#letter').css('height', letter_h);
+
+          updateLetter();
+      }
+      
+      function updateLetter() {
+          var n = sequence[cur];
+          var x = -letter_w * (n % 5);
+          var y = -letter_h * Math.floor(n / 5);
+          $('#letter').css('background-position', x + 'px ' + y + 'px');
+
+          $('#count').text((cur + 1) + '/26');
+      }
+      
+    </script>
+  </body>
+</html>

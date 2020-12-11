@@ -1,0 +1,42 @@
+
+- get app back up on itunes
+- put feedback on progress in, more for the adults than the kids
+- alternate develop + test, get involved with college to do study
+
+* random tests in between practice letters
+* enlarge names in student select
+- animation cancelling / speed up the game
+- letter screen select w/ borders (red, yellow, green)
+- remove the letter from the transition after an invisible level is complete
+
+notes from last meeting
+- agreement before first login?
+- check for version vs server
+- cards
+  - "help a child love to read"
+  - website + "search kangaroo crew on app store"
+
+- click on mousedown, not up/click
+- can interrupt correct animation with another selection, but not incorrect anim
+- handle or disable multitouch
+- replace group select with 26 letter select screen
+  - color coded to which need most practice??
+- login: feed age field back with student names (so it can be filled in client-side)
+- way to log out of (school) account
+
+- transform right-click into regular click?
+- improve letter transition? (remove letter? use a swipe of some kind? and then follow it with the goal bouncing and saying the letter)
+- separate test mode to evaluate which letters need work (only give one try + continue regardless of correctness)
+- visually differentiate test screen from learning mode
+- track practice amounts + test results: feed less-practiced letters
+- minigame in breaks? (every 2-3 letters?)
+- letter order: A-Z vs random?
+- automatic audio reminder after some idle time?
+- obs to record testing?
+- don't letterbox - extend bg to edges of screen
+
+app store changes
+- app name change: Kangaroo Crew Pre-K Reading Alphabet Game
+- App icon: Title at top "Kangaroo Crew", image of Loo-Loo below, "ABC" floating over her in lower right
+- App store page: change Lois Mancuso to Whisper Productions
+- First two levels free, rest in-app paid for 1.99

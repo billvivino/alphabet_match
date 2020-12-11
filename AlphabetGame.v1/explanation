@@ -1,0 +1,4 @@
+
+The "link" feature is for schools to manage student accounts in the app. The actual users of the app (children) do not use this login. Linking a device changes the "profile" screen from a "character select" to a "name select". Everything else remains the same.
+
+To link a device: open the app on the device. Click "start" and then "link". Note the link code. Open app.kangaroocrew.com in a browser. Login with the credentials provided. Click on "devices and linking". Enter the link code in the box and click "link". You will get a message saying the device was linked, and the device will automatically go to the "school" profile screen.

@@ -1,0 +1,5 @@
+[{"ts": 1557420661.851, "screen": "Profile", "msg": "select", "slot": 2}, {"ts": 1557420661.853, "screen": "Profile", "msg": "changescreen", "dest": "Game"}, {"ts": 1557420661.862, "screen": "Game", "msg": "newletter", "choices": "O O O U J C", "goal": "o"}, {"ts": 1557420662.131, "screen": "Game", "msg": "pick", "box": 1, "letter": "o"}, {"ts": 1557420665.046, "screen": "Game", "msg": "pick", "box": 2, "letter": "o"}]
+[{"ts": 1557420667.672, "screen": "Game", "msg": "pick", "box": 0, "letter": "o"}, {"ts": 1557420669.666, "screen": "Game", "msg": "newletter", "choices": "K U P P I P", "goal": "p"}]
+[{"ts": 1557420672.342, "screen": "Game", "msg": "backout"}, {"ts": 1557420672.342, "screen": "Game", "msg": "changescreen", "dest": "Profile"}]
+[{"ts": 1557420678.674, "screen": "Profile", "msg": "changescreen", "dest": "Title"}]
+[{"ts": 1557420696.698, "screen": "Title", "msg": "changescreen", "dest": "Profile"}]

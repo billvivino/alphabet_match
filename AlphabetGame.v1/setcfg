@@ -1,0 +1,22 @@
+#!/usr/bin/python3
+import sys, json, database
+
+email = sys.argv[1]
+if not database.accountExists(email):
+    print('no user:', email)
+    exit(1)
+
+if len(sys.argv) > 2:
+    if sys.argv[2] == '-':
+        f = sys.stdin
+    else:
+        f = open(sys.argv[2], 'r')
+    config = json.load(f)
+    f.close()
+    
+    database.setAccountInfo(email, config)
+    database.commit()
+
+else:
+    cfg = database.getAccountInfo(email)
+    print(cfg)

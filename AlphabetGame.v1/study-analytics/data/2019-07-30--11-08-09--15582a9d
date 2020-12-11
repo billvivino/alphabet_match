@@ -1,0 +1,5 @@
+[{"msg": "select", "slot": "student/205", "screen": "Profile", "ts": 1564499289.212}, {"msg": "changescreen", "ts": 1564499289.304, "screen": "Profile", "dest": "Game"}, {"msg": "changescreen", "ts": 1564499289.306, "screen": "Game", "dest": "Garden"}]
+[{"msg": "changescreen", "ts": 1564499294.831, "screen": "Garden", "dest": "Game"}, {"msg": "newletter", "ts": 1564499294.836, "screen": "Game", "choices": "J D M L W C", "goal": "l"}]
+[{"ts": 1564499347.668, "screen": "Game", "msg": "goalcheck"}]
+[{"box": 4, "ts": 1564499428.002, "screen": "Game", "letter": "w", "msg": "pick"}]
+[{"ts": 1564499504.358, "screen": "Game", "msg": "backout"}, {"ts": 1564499504.364, "screen": "Game", "dest": "Profile", "msg": "changescreen"}]

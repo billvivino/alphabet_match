@@ -1,0 +1,5 @@
+if [ -f /usr/lib/passenger/bin/passenger ]; then
+    /usr/lib/passenger/bin/passenger start
+elif [ -f /usr/bin/passenger ]; then
+    /usr/bin/passenger start
+fi

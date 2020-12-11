@@ -1,0 +1,1 @@
+[{"msg": "select", "slot": 2, "ts": 1553115117.881, "screen": "Profile"}, {"msg": "changescreen", "dest": "Game", "ts": 1553115117.882, "screen": "Profile"}, {"msg": "changescreen", "dest": "Garden", "ts": 1553115117.884, "screen": "Game"}]

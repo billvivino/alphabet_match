@@ -1,0 +1,103 @@
+
+graphs
+- difficulty progress over time
+/ response time (initial, subsequent), time to correct answer
+x correct answer %
+- problem letters (most incorrect answers)
+    - for given letter, what letter is wrong answer most often (for E, they choose H a lot)
+x goal checks / cloud
+/ session counts, lengths
+- crosstalk? game sound influencing other kids? (check coincident timestamps)
+
+sections
+- by letter, all letters
+- student, group, all
+
+
+
+x session id resets on app start and app resume
+x message id doesn't reset
+x keep analytics buffer in localstorage
+x save session with analytics message
+
+link screen
+- description of what this is / ad for analytics subscription
+- link to analytics login
+- "get code" button, show code
+- after getting code, check status every second while on screen
+
+
+
+app
+x make analytics use deviceid
+x add difficulty level updates to analytics
+- school accounts cause app to go into school mode
+- ability to get code to link with analytics account (if not already linked)
+- remember app mode with localstorage
+- fix combo resetting on new window (use preserveCombo())
+
+server analytics
+x convert server-side analytics to postgres
+/ get a linode for looloo (https required)
+
+analytics web interface
+- login
+- device association with codes
+- school vs personal accounts
+
+store
+- make app free
+- update store versions
+
+
+- update tablet with latest app build
+
+
+- study analytics data analysis: graphs/writeup
+
+
+
+
+## OLD ##
+
+title
+character select
+intro w/ difficulty hints
+game
+outtro party w/ medals
+
+start of session, pick difficulty based on evaluation of previous sessions
+
+difficulty
+- three of goal letter
+  - 'pass' is no mistakes and fast enough
+- two of goal letter
+- one of goal letter
+- cloud obscures goal, clears with taps or time
+  - 'pass' is when you select the letter before the cloud clears
+- no goal visible, only audio
+
+case
+- upper
+- upper, mixed
+- upper, mixed, lower
+
+segmented alphabet (windows of 5)
+
+
+
+each letter has a difficulty (different cases are counted as different letters, including mixed)
+letters are worked in segments
+
+
+find 5-letter window with lowest average difficulty
+work that segment (2-3 times through)
+show interstitial animation (two characters passing an item, lani names them)
+loop
+
+pool starts with only upper case, then add other cases as average difficulty of previous case group gets above threshold
+
+
+
+playing a letter changes its difficulty level by a weighted amount (different for right and wrong)
+combo -- increases your 'right' change if you're not getting anything wrong

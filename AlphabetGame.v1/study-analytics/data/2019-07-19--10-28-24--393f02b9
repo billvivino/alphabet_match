@@ -1,0 +1,2 @@
+[{"ts": 1563546499.515, "dest": "Title", "msg": "changescreen"}]
+[{"ts": 1563546550.56, "dest": "Profile", "msg": "changescreen", "screen": "Title"}]

@@ -1,0 +1,7 @@
+*.log
+*.pid
+*.lock
+tmp
+
+server-backup/
+

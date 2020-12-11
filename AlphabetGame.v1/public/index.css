@@ -1,0 +1,26 @@
+#token_login {
+    display: none;
+    margin-top: 1em;
+}
+
+#headerimg {
+    margin: 2em auto;
+}
+
+@media only screen and (max-width: 768px) {
+    #headerimg {
+	margin: 2em auto;
+	width:100%;
+	height:auto;
+    }
+}
+
+
+
+
+
+#email_login {
+    margin-top: 1em;
+}
+
+

@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="common.css" />
+    <link rel="stylesheet" href="devices.css" />
+    <script src="/common/jquery-3.4.1.min.js"></script>
+    <script src="/common/siteconf.js"></script>
+    <script src="/common/storage.js"></script>
+    <script src="/common/server.js"></script>
+    <script src="common.js"></script>
+    <script src="devices.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  <body>
+    <div class="box">
+      <div class="titletext">Link a Device</div>
+      <p>In your Kangaroo Crew app, press the "Link" button in the Profile Select screen. Enter the code below and press ACTIVATE DEVICE.
+      <p><input id="link_code" placeholder="Link Code" />
+      <p><button id="link_button">ACTIVATE DEVICE</button>
+      <p>This will activate your Kangaroo Crew app, enabling the school version, allowing you to view analytics, setup profiles and access all features.
+    </div>
+    <div class="boxwide">
+      <div class="titletext">Linked Devices</div>
+      <p><div id="device_list">Loading...</div>
+    </div>
+  </body>
+</html>

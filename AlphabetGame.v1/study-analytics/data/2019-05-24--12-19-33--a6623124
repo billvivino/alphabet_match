@@ -1,0 +1,6 @@
+[{"slot": 0, "screen": "Profile", "ts": 1558714773.69, "msg": "select"}, {"dest": "Game", "screen": "Profile", "ts": 1558714773.691, "msg": "changescreen"}, {"goal": "f", "screen": "Game", "choices": "Y F F K F B", "msg": "newletter", "ts": 1558714773.693}]
+[{"screen": "Game", "ts": 1558714784.882, "msg": "backout"}, {"dest": "Profile", "screen": "Game", "ts": 1558714784.882, "msg": "changescreen"}]
+[{"dest": "Title", "screen": "Profile", "ts": 1558714786.302, "msg": "changescreen"}]
+[{"dest": "Profile", "screen": "Title", "ts": 1558714814.377, "msg": "changescreen"}]
+[{"dest": "Title", "screen": "Profile", "ts": 1558714897.127, "msg": "changescreen"}]
+[{"dest": "Profile", "screen": "Title", "ts": 1558714926.802, "msg": "changescreen"}]

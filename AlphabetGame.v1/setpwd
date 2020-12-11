@@ -1,0 +1,7 @@
+#!/usr/bin/python3
+import sys, database
+
+email = sys.argv[1]
+pwd = input('Password? ')
+database.createAccount(email, pwd, allowExisting=True)
+database.commit()
