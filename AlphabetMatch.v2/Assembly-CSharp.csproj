@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C9B13EDE-6AAA-2541-C505-B61B1B663B0E}</ProjectGuid>
+    <ProjectGuid>{B3611F1D-40EE-C381-27A0-2916F5B33DA1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -55,7 +55,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AlphabetMatch\Scripts\AnimateGardenLetter.cs" />
+     <Compile Include="Assets\AlphabetMatch\Scripts\CheckMouseAnswer.cs" />
      <Compile Include="Assets\AlphabetMatch\Scripts\GameLogic.cs" />
+     <Compile Include="Assets\AlphabetMatch\Scripts\GardenLogic.cs" />
+     <Compile Include="Assets\AlphabetMatch\Scripts\GridObject.cs" />
      <Compile Include="Assets\AlphabetMatch\Scripts\LetterCharacterAnimate.cs" />
      <Compile Include="Assets\AlphabetMatch\Scripts\MouseGlow.cs" />
      <Compile Include="Assets\Scripts\SpinningCube.cs" />
@@ -607,52 +611,52 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.VSCode.Editor">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Rider.Editor">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AlmostEngine.Shared.Editor.csproj">
-      <Project>{8F06188A-F181-C039-9040-BCBE4ABF73BD}</Project>
+      <Project>{77353189-F1B1-A180-63EF-0ABFAD79CF2A}</Project>
       <Name>AlmostEngine.Shared.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AlmostEngine.UniversalDevicePreview.Editor.csproj">
-      <Project>{B44F6165-B88D-9617-1D46-C24FF3E9C58B}</Project>
+      <Project>{5DE6E9C9-2237-85C6-FF3E-70E2EC8E886B}</Project>
       <Name>AlmostEngine.UniversalDevicePreview.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AlmostEngine.SimpleLocalization.Editor.csproj">
-      <Project>{316DB6C8-69CC-3F52-EDD6-AEBA181C4647}</Project>
+      <Project>{A507EE28-36ED-F91E-76DD-C4A18C3FB0A5}</Project>
       <Name>AlmostEngine.SimpleLocalization.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AlmostEngine.UltimateScreenshotCreator.Editor.csproj">
-      <Project>{C5ACB7F9-9B53-2BCA-3FB6-38B8BB647086}</Project>
+      <Project>{FEEB3147-8E97-AC2E-2F43-EA0278AC1B40}</Project>
       <Name>AlmostEngine.UltimateScreenshotCreator.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AlmostEngine.csproj">
-      <Project>{F546023F-324D-6D7F-BF57-CC1615BE6841}</Project>
+      <Project>{1C77B9F4-7A5A-021B-60B9-E8F5B33A05DE}</Project>
       <Name>AlmostEngine</Name>
     </ProjectReference>
   </ItemGroup>

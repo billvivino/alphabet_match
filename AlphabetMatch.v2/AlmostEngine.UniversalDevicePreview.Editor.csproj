@@ -11,7 +11,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{B44F6165-B88D-9617-1D46-C24FF3E9C58B}</ProjectGuid>
+    <ProjectGuid>{5DE6E9C9-2237-85C6-FF3E-70E2EC8E886B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>AlmostEngine.UniversalDevicePreview.Editor</AssemblyName>
@@ -265,7 +265,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="nunit.framework">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/PackageCache/com.unity.ext.nunit@1.0.0/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="mscorlib">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll</HintPath>
@@ -622,29 +622,29 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.3.14f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.UI">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.TestRunner">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.TestRunner">
- <HintPath>C:/Users/pichya/Documents/AlphabetMatch/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+ <HintPath>C:/Users/pichya/Documents/GitHub/kangaroocrew/alphabet_match/AlphabetMatch.v2/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="AlmostEngine.csproj">
-      <Project>{F546023F-324D-6D7F-BF57-CC1615BE6841}</Project>
+      <Project>{1C77B9F4-7A5A-021B-60B9-E8F5B33A05DE}</Project>
       <Name>AlmostEngine</Name>
     </ProjectReference>
     <ProjectReference Include="AlmostEngine.UltimateScreenshotCreator.Editor.csproj">
-      <Project>{C5ACB7F9-9B53-2BCA-3FB6-38B8BB647086}</Project>
+      <Project>{FEEB3147-8E97-AC2E-2F43-EA0278AC1B40}</Project>
       <Name>AlmostEngine.UltimateScreenshotCreator.Editor</Name>
     </ProjectReference>
     <ProjectReference Include="AlmostEngine.Shared.Editor.csproj">
-      <Project>{8F06188A-F181-C039-9040-BCBE4ABF73BD}</Project>
+      <Project>{77353189-F1B1-A180-63EF-0ABFAD79CF2A}</Project>
       <Name>AlmostEngine.Shared.Editor</Name>
     </ProjectReference>
   </ItemGroup>

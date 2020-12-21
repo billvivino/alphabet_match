@@ -13,6 +13,7 @@ public class GardenLogic : MonoBehaviour
 	
 	public bool AnimateFlag;
 	public int StopCounter;
+	public int randomLetterIndex;
 	
 	public GameObject[] chars;
 	
@@ -25,12 +26,17 @@ public class GardenLogic : MonoBehaviour
 	    ResetGarden();
     }
 	
+	public void SelectRandomLetters(){
+		randomLetterIndex = Random.Range(0,23);
+		AnimateStop = 51 + randomLetterIndex;
+	}
+	
 	public void ResetVars(){
 		timer = 0f;
 		waitTime = 0.2f;
 		LetterCounter = 0;
 		AnimateCounter = 0;
-		AnimateStop = 65;
+		SelectRandomLetters();
 		StopCounter = 0;
 		AnimateFlag = false;
 	}
@@ -64,6 +70,7 @@ public class GardenLogic : MonoBehaviour
 					StopCounter++;
 					if (StopCounter>2){
 						AnimateFlag = false;
+						gameLogicObj.SetCurrentLetter(randomLetterIndex);
 					}
 				}else{
 					GardenLetters[LetterCounter].GetComponent<AnimateGardenLetter>().AnimateFlag = 1;
