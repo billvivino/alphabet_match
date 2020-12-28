@@ -1,6 +1,6 @@
 # Alphabet Match
 
-![Title Screen](../../blob/master/src/Assets/Images/tItleScreen.png)
+![Title Screen](../../blob/master/AlphabetMatch.v2/Assets/AlphabetMatch/Screenshots/title.png)
 
 ## Summary
 Alphabet Match mobile app source files. Version 1 developed using PhoneGap. Version 2 developed using Unity3d v2019.3
