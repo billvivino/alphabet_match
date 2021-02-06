@@ -21,7 +21,7 @@ public class LetterCharacterAnimate : MonoBehaviour
 	
 	public void ShowCharacter(int _charNum){
 		HideCharacters();
-		Letterchars[_charNum].SetActive(false);
+		Letterchars[_charNum].SetActive(true);
 	}
 	
     // Update is called once per frame

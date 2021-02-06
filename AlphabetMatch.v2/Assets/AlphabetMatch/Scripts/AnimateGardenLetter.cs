@@ -21,8 +21,8 @@ public class AnimateGardenLetter : MonoBehaviour
 	   waitTime = 0.15f;
 	   waitFlag = false;
 	   AnimateFlag = 0;
-	   velocity = 100f;
-	   yPos = -70f;
+	   velocity = -100f;
+	   yPos = 0f;
    }
    
     // Update is called once per frame
@@ -37,6 +37,7 @@ public class AnimateGardenLetter : MonoBehaviour
 				}
 			}else{
 				yPos += Time.deltaTime * velocity;
+				/*
 				if (yPos>1){
 					yPos = 0f;
 					velocity *=-1;
@@ -46,10 +47,11 @@ public class AnimateGardenLetter : MonoBehaviour
 						waitFlag = false;
 						AnimateFlag = 0;
 					}
-				}
+				}*/
+				
 				if (yPos<-70){
 					yPos = -70f;
-					velocity *=-1;
+					//velocity *=-1;
 					timer = 0f;
 					waitFlag = false;
 					AnimateFlag = 0;
