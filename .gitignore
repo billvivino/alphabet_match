@@ -1,0 +1,9 @@
+# Unity Build Folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Aa]ndroidBuild/
+# iOS Build folder name pattern
+iOS Build*/ 
