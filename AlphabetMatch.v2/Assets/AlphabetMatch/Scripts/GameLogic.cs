@@ -946,12 +946,25 @@ public class GameLogic : MonoBehaviour
 		if (CorrectLetterCounter >= CorrectLetterTotal)
 		{
 			currentGridClick = -2;
-			LeanTween.move(gridTransforms[0], new Vector3(-162f, -642f, 0f), 0.5f).setDelay(0.5f);
-			LeanTween.move(gridTransforms[1], new Vector3(1f, -642f, 0f), 0.5f).setDelay(0.5f);
-			LeanTween.move(gridTransforms[2], new Vector3(164f, -642f, 0f), 0.5f).setDelay(0.5f);
-			LeanTween.move(gridTransforms[3], new Vector3(-162f, -703f, 0f), 0.5f).setDelay(0.5f);
-			LeanTween.move(gridTransforms[4], new Vector3(1f, -703f, 0f), 0.5f).setDelay(0.5f);
-			LeanTween.move(gridTransforms[5], new Vector3(164f, -703f, 0f), 0.5f).setDelay(0.5f).setOnComplete(OnResetPlayScreen);
+
+			// how far (in local‑space units) each tile should drop straight down
+			const float dropAmount = 684f;
+
+			for (int i = 0; i < gridTransforms.Length; i++)
+			{
+				Vector3 startPos = gridTransforms[i].localPosition;
+				LTDescr tween = LeanTween.move(
+					gridTransforms[i],
+					new Vector3(startPos.x, startPos.y - dropAmount, startPos.z),
+					0.5f
+				).setDelay(0.5f);
+
+				// fire OnResetPlayScreen once the last tween completes
+				if (i == gridTransforms.Length - 1)
+				{
+					tween.setOnComplete(OnResetPlayScreen);
+				}
+			}
 		}
 	}
 
